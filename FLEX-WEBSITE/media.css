@@ -1,0 +1,275 @@
+@media(max-width:700px)
+{
+    .menu{
+        display: none;
+    }
+    .icon{
+        display: none;
+    }
+    .logo{
+        transform: translate(60px, 0px);
+    }
+    .main{
+        height: 60px;
+    }
+    .wall .t2{
+        font-size: 300%;
+    }
+    .wall .t3{
+        font-size: 130%;
+    }
+    .bar{
+        display: flex;
+        align-items: center;
+        transform: translate(50px, 0px);
+    }
+    .btn1{
+        transform: translate(-100px,0px);
+    }
+    .btn2{
+        transform: translate(105px,0px);
+    }
+    .tour{
+        height: 400px;
+        width: 80%;
+        transform: translate(0px,-100px);
+        position: relative;
+    }
+    .tour .s1{
+        width: 90%;
+        position: absolute;
+        top: 1%;        
+    }
+    .tour .s2{
+        width: 90%;
+        position: absolute;
+        top: 20%;        
+    }
+    .tour .s3{
+        width: 90%;
+        position: absolute;
+        top: 40%;        
+    }
+    .tour .s4{
+        width: 90%;
+        position: absolute;
+        top: 60%;        
+    }
+    .tour .s5{
+        width: 90%;
+        position: absolute;
+        top: 80%;        
+    }
+    .main2{
+        position: relative;
+        /* width: auto; */
+    }
+    .main2 .top1{
+        position: absolute;
+        top: -40%;
+        left: 35%;
+    }
+    .main2 .top2{
+        position: absolute;
+        top: -30%;
+        left: 30%;
+        font-size: 200%;
+    }
+    .top2 .topin{
+        position: absolute;
+        top: 50%;
+        height: 15px;
+    }
+    .main2 .top3{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+    .main4{
+        position: relative;
+        height: 200px;
+    }
+    .main4 .top1{
+        position: absolute;
+        top: 10%;
+        left: 35%;
+    }
+    .main4 .top2{
+        position: absolute;
+        font-size: 200%;
+        top: 20%;
+        left: 30%;
+    }
+    .main4 .topout{
+        height: 15px;
+    }
+    .main4 .top3{
+        position: absolute;
+        top: 35%;
+        left: 15%;
+    }
+    .main6{
+        position: relative;
+        height: 200px;
+    }
+    .main6 .top1{
+        position: absolute;
+        top: 10%;
+        left: 35%;
+    }
+    .main6 .top2{
+        position: absolute;
+        font-size: 200%;
+        top: 20%;
+        left: 30%;
+    }
+    .main6 .topout{
+        height: 15px;
+    }
+    .main6 .top3{
+        position: absolute;
+        top: 35%;
+        left: 15%;
+    }
+    .main8 .img{
+        display: none;
+    }
+    .main9{
+        position: relative;
+        height: 200px;
+    }
+    .main9 .top1{
+        position: absolute;
+        top: 8%;
+        left: 30%;
+    }
+    .main9 .top2{
+        position: absolute;
+        font-size: 200%;
+        top: 20%;
+        left: 30%;
+    }
+    .main9 .topout{
+        height: 15px;
+    }
+    .main9 .top3{
+        position: absolute;
+        top: 35%;
+        left: 15%;
+    }
+    .in1 .top1{
+        position: absolute;
+        top: 20%;
+        left: 15%;
+        color: white;
+    }
+    .in1 .top2{
+        position: absolute;
+        top: 30%;
+        font-size: 200%;
+        left: 15%;
+        color: white;
+    }
+    .in1 .top3{
+        position: absolute;
+        top: 45%;
+        left: 15%;
+        font-size: large;
+        color: white;
+    }
+    .in1 .in2{
+        position: absolute;
+        top: 75%;
+        left: 15%;
+        font-size: large;
+        height: 30px;
+        width: 150px;
+    }
+    .in1 .in2:focus{
+        outline: none;
+    }
+    .in1 .subscribe{
+        position: absolute;
+        top: 75%;
+        left: 75%;
+        height: 35px;
+        width: 100px;
+        color: white;
+        background-color: blue;
+        border: none;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .main12{
+        position: relative;
+        height: 200px;
+    }
+    .main12 .top1{
+        position: absolute;
+        top: 10%;
+        left: 25%;
+    }
+    .main12 .top2{
+        position: absolute;
+        font-size: 200%;
+        top: 20%;
+        left: 30%;
+    }
+    .main12 .topout{
+        height: 15px;
+    }
+    .main12 .top3{
+        position: absolute;
+        top: 35%;
+        left: 10%;
+    }
+    .main15{
+        position: relative;
+        height: 200px;
+    }
+    .main15 .top2{
+        position: absolute;
+        font-size: 200%;
+        top: 20%;
+        left: 30%;
+    }
+    .main15 .topout{
+        height: 15px;
+    }
+    .main15 .top3{
+        position: absolute;
+        top: 35%;
+        left: 15%;
+    }
+    .main17 .in{
+        height: 200px;
+        width: 500px;
+        background-image: url(17.png);
+        background-size: contain;
+        box-shadow: 0px 0px 5px gray;
+    }
+    .main19 .logo{
+        width: 50%;
+        /* border: 2px solid red; */
+        margin: 3px;
+        height: 90px;
+        background-image: url(21.png);
+        background-size: cover;
+    }
+    .main19 .li{
+        width: 100%;
+        /* border: 2px solid red; */
+        margin: 3px;
+        height: 90px;
+        background-image: url(22.png);
+        background-size: cover;
+    }
+    .main19 .social{
+        width: 100%;
+        /* border: 2px solid red; */
+        margin: 3px;
+        height: 90px;
+        background-image: url(23.png);
+        background-size: cover;
+    }
+}
